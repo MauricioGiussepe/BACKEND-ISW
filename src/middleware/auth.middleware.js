@@ -16,7 +16,7 @@ export function authMiddleware(req, res, next) {
 
   try {
     const payload = jwt.verify(token, process.env.JWT_SECRET);
-    req.user = payload;
+    req.user = {id :payload.sub};
     next();
   } catch (error) {
     return handleErrorClient(res, 401, "Token inválido o expirado.", error.message);
