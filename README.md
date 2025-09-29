@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Proyecto de Ingeniería de Software
 
 ## Descripción
@@ -97,3 +98,6 @@ Este proyecto está bajo una licencia académica para uso educativo exclusivamen
 
 ---
 *Desarrollado para fines educativos - Universidad del Bio Bio 2025-2*
+=======
+# BACKEND-ISW
+>>>>>>> bd6e79d11bd1b678ffc1bbdd0b1471d8d35aa6bb
